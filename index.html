@@ -2,21 +2,29 @@
 <html lang="en-US">
   <head>
     <title>Coders Coffeehouse</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="text-center">
+    <div class="text-center" id="home">
       <h1>Welcome to Coders Coffeehouse!</h1>
       <p>Turning caffeine into code since 1999.</p>
     </div>
 
     <hr />
 
+    <div>
+      <a href="#home">Home</a>
+      <a href="#drinks">Drinks menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+
     <div class="text-center text-white reasons-box">
       <h2>Reason to love us</h2>
-      <p>Free unlimited wifi</p>
-      <p>Charging outlets<br />every table</p>
-      <p>High quality coffee<br />to fuel your code</p>
+      <ol type="I">
+        <li>Free unlimited wifi</li>
+        <li>Charging outlets<br />every table</li>
+        <li>High quality coffee<br />to fuel your code</li>
+      </ol>
     </div>
 
     <img
@@ -24,35 +32,90 @@
       alt="Cafe table with laptop and coffee."
     />
 
-    <div class="text-center">
+    <div id="drinks">
       <h2>Drinks Menu</h2>
       <div class="text-white" id="coffee-box">
         <h3>Coffee</h3>
+        <ul>
+          <li>Latte</li>
+          <li>Americano</li>
+          <li>Cappuccino</li>
+          <li>Espresso</li>
+          <li>Irish Coffee</li>
+          <li>Macchiato</li>
+          <li>Flat White</li>
+        </ul>
       </div>
+
       <div class="text-white" id="tea-box">
         <h3>Tea</h3>
+        <ul>
+          <li>Earl Grey</li>
+          <li>Green Tea</li>
+          <li>Lemon Tea</li>
+          <li>Peppermint Tea</li>
+          <li>Ginger Tea</li>
+          <li>Mint Tea</li>
+        </ul>
       </div>
+
       <div class="text-white" id="cold-drinks-box">
         <h3>Cold drinks</h3>
+        <ul>
+          <li>Iced coffee</li>
+          <li>Ice Tea</li>
+          <li>Spring water</li>
+          <li>Soft drinks
+            <ul>
+              <li>Coca Cola</li>
+              <li>Fanta</li>
+              <li>7up</li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <h2>Contact</h2>
+    <div id="contact">
+      <h2>Contact</h2>
 
-    <h3>Open times</h3>
+      <h3>Open times</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>Open</th>
+          <th>Close</th>
+        </tr>
+        <tr>
+          <td>Mon - Fri</td>
+          <td>09:00</td>
+          <td>21:00</td>
+        </tr>
+        <tr>
+          <td>Weekend</td>
+          <td>10:00</td>
+          <td>22:00</td>
+        </tr>
+      </table>
 
-    <h3>Get in touch</h3>
+      <h3>Get in touch</h3>
 
-    <div>
-      <span class="bold">Phone:</span>
-      <span>3-34-345-234</span>
+      <div>
+        <span class="bold">Phone:</span>
+        <span>3-34-345-234</span>
+      </div>
+      <div>
+        <span class="bold">Email: </span>
+        <span>email@coderscoffeehouse.com</span>
+      </div>
+
+      <h3>Address</h3>
+      <p>Coders Coffeehouse,<br />42 Coffeebean street,<br />Dublin</p>
     </div>
-    <div>
-      <span class="bold">Email: </span>
-      <span>email@coderscoffeehouse.com</span>
-    </div>
-    
-    <h3>Address</h3>
-    <p>Coders Coffeehouse,<br />42 Coffeebean street,<br />Dublin</p>
+
+    <a href='https://www.facebook.com/' target='_blank' rel='noopener'>Facebook</a>
+	  <a href='https://www.instagram.com/' target='_blank' rel='noopener'>Instagram</a>
+	  <a href='https://twitter.com/' target='_blank' rel='noopener'>Twitter</a>
+
   </body>
 </html>
