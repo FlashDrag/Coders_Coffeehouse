@@ -11,108 +11,172 @@
     <hr />
 
     <form method="post" action="https://formdump.codeinstitute.net">
+      <fieldset>
+        <legend>Your details</legend>
         <div>
-            <label for="name-field">Name</label>
-            <input name="name" id="name-field" type="text" placeholder="enter your name"> <br>
+          <label for="name-field">Name</label>
+          <input
+            name="name"
+            id="name-field"
+            type="text"
+            placeholder="enter your name"
+          />
+          <br />
         </div>
         <div>
-            <label for="email-field">Email</label>
-            <input name="email" id="email-field" type="email" placeholder="enter your email"> <br>
+          <label for="email-field">Email</label>
+          <input
+            name="email"
+            id="email-field"
+            type="email"
+            placeholder="enter your email"
+          />
+          <br />
         </div>
         <div>
-            <input type="checkbox" id="remember" name="remember" value="remember" checked>
-            <label for="remember">Remember My Username</label>
+          <input
+            type="checkbox"
+            id="remember"
+            name="remember"
+            value="remember"
+            checked
+          />
+          <label for="remember">Remember My Username</label>
         </div>
 
+        <label for="age">Age</label>
+        <select name="age" id="age">
+          <option value="under-20">Under 20</option>
+          <option>20-29</option>
+          <option>30-39</option>
+          <option>40-49</option>
+          <option>50-59</option>
+          <option>60+</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Our products</legend>
         <div>
-            <Label for="age">Age</Label>
-            <select name="age" id="age">
-                <option value="under-20">Under 20</option>
-                <option>20-29</option>
-                <option>30-39</option>
-                <option>40-49</option>
-                <option>50-59</option>
-                <option>60+</option>
-            </select>
+          <label for="fav-coffee">What is your favorite coffee?</label>
+          <input type="text" id="fav-coffee" name="fav-coffee" list="coffees" />
+          <datalist id="coffees">
+            <option value="Latte"></option>
+            <option value="Americano"></option>
+            <option value="Cappuccino"></option>
+            <option value="Espresso"></option>
+            <option value="Flat-white"></option>
+          </datalist>
         </div>
 
-        <div>
-            <label for="fav-coffee">What is your favorite coffee?</label>
-            <input type="text" id="fav-coffee" name="fav-coffee" list="coffees">
-            <datalist id="coffees">
-                <option value="Latte"></option>
-                <option value="Americano"></option>
-                <option value="Cappuccino"></option>
-                <option value="Espresso"></option>
-                <option value="Flat-white"></option>
-            </datalist>
-        </div>
+        <p>How many cups of coffee do you drink a day?</p>
+        <input
+          id="0-2cups-radio"
+          name="cups-a-day"
+          value="0-2cups"
+          type="radio"
+        />
+        <label for="0-2cups-radio">0 to 2 cups</label>
 
-        <div>
-            <p>How many cups of coffee do you drink a day?</p>
-            <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio">
-            <label for="0-2cups-radio">0 to 2 cups</label>
+        <input
+          id="3-5cups-radio"
+          name="cups-a-day"
+          value="3-5cups"
+          type="radio"
+        />
+        <label for="3-5cups-radio">3 to 5 cups</label>
 
-            <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio">
-            <label for="3-5cups-radio">3 to 5 cups</label>
+        <input
+          id="6-8cups-radio"
+          name="cups-a-day"
+          value="6-8cups"
+          type="radio"
+        />
+        <label for="6-8cups-radio">6 to 8 cups</label>
 
-            <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio">
-            <label for="6-8cups-radio">6 to 8 cups</label>
+        <input
+          id="9plus-cups-radio"
+          name="cups-a-day"
+          value="9plus-cups"
+          type="radio"
+        />
+        <label for="9plus-cups-radio">9 or more cups</label>
 
-            <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio">
-            <label for="9plus-cups-radio">9 or more cups</label>
-        </div>
+        <p>How often do you visit Coders Coffeehouse?</p>
+        <input
+          type="radio"
+          name="visit-frequency"
+          id="once-a-week"
+          value="once-a-week"
+        />
+        <label for="once-a-week">Once a week</label>
 
-        <div>
-            <p>How often do you visit Coders Coffeehouse?</p>
-            <input type="radio" name="visit-frequency" id="once-a-week" value="once-a-week">
-            <label for="once-a-week">Once a week</label>
+        <input
+          type="radio"
+          name="visit-frequency"
+          id="twice-a-week"
+          value="twice-a-week"
+        />
+        <label for="twice-a-week">Twice a week</label>
 
-            <input type="radio" name="visit-frequency" id="twice-a-week" value="twice-a-week">
-            <label for="twice-a-week">Twice a week</label>
+        <input
+          type="radio"
+          name="visit-frequency"
+          id="once-a-fortnight"
+          value="once-a-fortnight"
+        />
+        <label for="once-a-fortnight">Once a fortnight</label>
 
-            <input type="radio" name="visit-frequency" id="once-a-fortnight" value="once-a-fortnight">
-            <label for="once-a-fortnight">Once a fortnight</label>
-
-            <input type="radio" name="visit-frequency" id="not-often" value="not-often">
-            <label for="not-often">Not often</label>
-        </div>
-
+        <input
+          type="radio"
+          name="visit-frequency"
+          id="not-often"
+          value="not-often"
+        />
+        <label for="not-often">Not often</label>
 
         <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
         <div>
-            <input id="brownies-checkbox" type="checkbox">
-            <label for="brownies-checkbox">Brownies</label>
+          <input id="brownies-checkbox" type="checkbox" />
+          <label for="brownies-checkbox">Brownies</label>
         </div>
         <div>
-            <input id="cookies-checkbox" type="checkbox">
-            <label for="cookies-checkbox">Cookies</label>
+          <input id="cookies-checkbox" type="checkbox" />
+          <label for="cookies-checkbox">Cookies</label>
         </div>
         <div>
-            <input id="nachos-checkbox" type="checkbox">
-            <label for="nachos-checkbox">Nachos</label>
+          <input id="nachos-checkbox" type="checkbox" />
+          <label for="nachos-checkbox">Nachos</label>
         </div>
         <div>
-            <input id="croissants-checkbox" type="checkbox">
-            <label for="croissants-checkbox">Croissants</label>
+          <input id="croissants-checkbox" type="checkbox" />
+          <label for="croissants-checkbox">Croissants</label>
         </div>
         <div>
-            <input id="scones-checkbox" type="checkbox">
-            <label for="scones-checkbox">Scones</label>
+          <input id="scones-checkbox" type="checkbox" />
+          <label for="scones-checkbox">Scones</label>
         </div>
+      </fieldset>
 
+      <fieldset>
+        <legend>Feedback</legend>
+        <label for="feedback-field"
+          >How can we improve your experience with us?</label
+        >
+        <br />
+        <textarea
+          name="feedback"
+          id="feedback-field"
+          cols="87"
+          rows="4"
+          placeholder="Enter your feedback"
+        ></textarea>
+      </fieldset>
 
-        <div>
-            <label for="feedback-field">How can we improve your experience with us?</label>
-            <br>
-            <textarea name="feedback" id="feedback-field" cols="87" rows="4" placeholder="Enter your feedback"></textarea>
-        </div>
-
-        <button type="submit">
-            <strong>Enter prize draw</strong>
-        </button>
-        <input type="reset" value="Reset form">
-
+      <button type="submit">
+        <strong>Enter prize draw</strong>
+      </button>
+      <input type="reset" value="Reset form" />
     </form>
   </body>
 </html>
