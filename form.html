@@ -20,6 +20,7 @@
             id="name-field"
             type="text"
             placeholder="enter your name"
+            required
           />
           <br />
         </div>
@@ -30,6 +31,7 @@
             id="email-field"
             type="email"
             placeholder="enter your email"
+            required
           />
           <br />
         </div>
@@ -45,7 +47,7 @@
         </div>
 
         <label for="age">Age</label>
-        <select name="age" id="age">
+        <select name="age" id="age" required>
           <option value="under-20">Under 20</option>
           <option>20-29</option>
           <option>30-39</option>
@@ -59,7 +61,7 @@
         <legend>Our products</legend>
         <div>
           <label for="fav-coffee">What is your favorite coffee?</label>
-          <input type="text" id="fav-coffee" name="fav-coffee" list="coffees" />
+          <input type="text" id="fav-coffee" name="fav-coffee" list="coffees" required />
           <datalist id="coffees">
             <option value="Latte"></option>
             <option value="Americano"></option>
@@ -75,6 +77,7 @@
           name="cups-a-day"
           value="0-2cups"
           type="radio"
+          required
         />
         <label for="0-2cups-radio">0 to 2 cups</label>
 
@@ -83,6 +86,7 @@
           name="cups-a-day"
           value="3-5cups"
           type="radio"
+          required
         />
         <label for="3-5cups-radio">3 to 5 cups</label>
 
