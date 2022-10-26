@@ -4,7 +4,7 @@ h1 {
 header {
     background-color: black;
 }
-header p {
+header > p {
     color: white;
 }
 .bold {
@@ -25,8 +25,52 @@ a:hover {
     text-decoration: none;
     color: chocolate;
 }
+.reasons-box > h2 {
+    font-size: xx-large;
+}
+
+footer {
+    background-color: #6f4e37;
+    padding: 1em;
+    text-align: center;
+}
+
+footer > span {
+    color: silver;
+}
+footer > a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+}
+footer > p {
+    color: silver;
+}
 
 
+/* ---form--- */
+form {
+    margin-top: 2rem;
+}
+
+button[type=submit] {
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #5e361b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type=submit], input[type=reset] {
+    cursor: pointer;
+}
+
+/* button[type=submit]:hover {
+    opacity: 0.5;
+} */
+
+/*
 .text-center {
     text-align: center;
 }
@@ -36,4 +80,4 @@ a:hover {
 
 .reasons-box {
     background-color: chocolate;
-}
+} */
