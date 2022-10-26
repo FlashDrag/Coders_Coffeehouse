@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dom-selectors</title>
+    <style>
+        h3 ~ p
+		 {
+			color: blue;
+		}
+		p ~ span {
+			color: red;
+		}
+    </style>
+</head>
+<body>
+    <header>
+		<h1>Level 1 heading</h1>
+		<p>This paragraph text should be black.</p>
+	</header>
+	<section>
+		<h2>Level 2 heading</h2>
+		<p>This paragraph text should be black.</p>
+		<p>This paragraph text should be black.</p>
+
+		<h3>Level 3 heading</h3>
+		<p>This paragraph text should change to blue.</p>
+		<p>This paragraph text should also change to blue.</p>
+	</section>
+
+	<p>This paragraph text should be bla</p>
+
+	<div>
+		<p>Be true to your work, your word, and your friend.</p>
+		<span>Luck is believing you're lucky.</span>
+	</div>
+	<section>
+		<p>Strength doesn't come from what you can do. It comes from overcoming the things you once thought you couldn't.</p>
+		<span>Fortune always favors the brave, and never helps a man who does not help himself.</span>
+	</section>
+</body>
+</html>
