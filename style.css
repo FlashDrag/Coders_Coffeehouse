@@ -1,8 +1,12 @@
 h1 {
     color: brown;
+    font-size: 3rem;
 }
 header {
     background-color: black;
+}
+.page-header {
+    height: 50vh;
 }
 header > p {
     color: white;
@@ -20,6 +24,11 @@ header > p {
 #cold-drinks-box {
     background-color: chocolate;
 }
+
+.drinks-box {
+    width: 33%;
+}
+
 
 a:hover {
     text-decoration: none;
@@ -50,6 +59,7 @@ footer > p {
 
 /* ---form--- */
 form {
+    width: 700px;
     margin-top: 2rem;
 }
 
