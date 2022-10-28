@@ -33,6 +33,14 @@ header > p {
 	color: #FFFFFF;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
 nav > a {
 	color: beige;
 	margin: 1rem;
