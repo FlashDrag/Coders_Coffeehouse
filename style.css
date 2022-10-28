@@ -1,100 +1,97 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 body {
-    font-family: 'Open Sans', Arial, sans-serif
+	font-family: 'Open Sans', Arial, sans-serif;
 }
+
 h1,h2,h3 {
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
+
 h1 {
-    color: brown;
-    font-size: 3rem;
+	font-size: 3rem;
 }
+
 header {
     background-color: black;
+	color: beige;
 }
+
+header > p {
+	color: white;
+}
+
 .page-header {
     height: 50vh;
 }
-header > p {
-    color: white;
+
+.text-white {
+	color: #FFFFFF;
 }
+
+nav > a {
+	color: beige;
+	margin: 1rem;
+}
+
+nav > a:hover {
+	color: silver;
+}
+
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 #coffee-box {
-    background-color: brown;
+	background-color: brown;
 }
+
 #tea-box {
-    background-color: #6f4e37;
+	background-color: #6f4e37;
 }
+
 #cold-drinks-box {
-    background-color: chocolate;
+	background-color: chocolate;
 }
 
 .drinks-box {
-    width: 33%;
+	width: 33%;
 }
-
 
 a:hover {
-    text-decoration: none;
-    color: chocolate;
-}
-.reasons-box > h2 {
-    font-size: xx-large;
+	text-decoration: none;
+	color: chocolate;
 }
 
 footer {
-    background-color: #6f4e37;
-    padding: 1em;
-    text-align: center;
+	background-color: #6f4e37;
+	padding: 1em;
+	text-align: center;
 }
 
 footer > span {
-    color: silver;
+	color: silver;
 }
+
 footer > a {
-    color: beige;
-    text-decoration: none;
-    padding: 0 15px;
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
 }
+
 footer > p {
-    color: silver;
+	color: silver;
 }
 
+input[type=submit] {
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
 
-/* ---form--- */
 form {
-    width: 700px;
-    margin-top: 2rem;
+	width: 700px;
 }
-
-button[type=submit] {
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #5e361b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-button[type=submit], input[type=reset] {
-    cursor: pointer;
-}
-
-/* button[type=submit]:hover {
-    opacity: 0.5;
-} */
-
-/*
-.text-center {
-    text-align: center;
-}
-.text-white {
-    color: white;
-}
-
-.reasons-box {
-    background-color: chocolate;
-} */
