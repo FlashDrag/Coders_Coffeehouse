@@ -41,9 +41,22 @@ header > p {
     text-align: right;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+small {
+    font-style: italic;
+}
+
 nav > a {
 	color: beige;
 	margin: 1rem;
+    text-decoration: none;
 }
 
 nav > a:hover {
@@ -61,6 +74,7 @@ strong {
 legend {
     font-size: large;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 #coffee-box {
