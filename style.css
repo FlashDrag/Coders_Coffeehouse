@@ -12,6 +12,10 @@ h1 {
 	font-size: 3rem;
 }
 
+h2 {
+    font-size: xx-large;
+}
+
 header {
     background-color: black;
 	color: beige;
@@ -40,6 +44,15 @@ nav > a:hover {
 
 .bold {
 	font-weight: bold;
+}
+
+strong {
+    font-size: 1.3rem;
+}
+
+legend {
+    font-size: large;
+    font-weight: 600;
 }
 
 #coffee-box {
@@ -77,6 +90,7 @@ footer > a {
 	color: beige;
 	text-decoration: none;
 	padding: 0 15px;
+    font-size: 0.8rem;
 }
 
 footer > p {
