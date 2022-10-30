@@ -111,14 +111,21 @@ img {
 
 #coffee-box {
   background-color: brown;
+  position: relative;
+  left: 70px;
+  top: -15px;
 }
 
 #tea-box {
   background-color: #6f4e37;
+  position: relative;
 }
 
 #cold-drinks-box {
   background-color: chocolate;
+  position: relative;
+  right: 70px;
+  top: -15px;
 }
 
 .one-third-width-column {
@@ -137,6 +144,9 @@ img {
   width: 100%;
   margin: 2%;
   background-color: chocolate;
+  position: relative;
+  left: 20%;
+  top: 30px;
 }
 
 .drinks-box {
@@ -195,6 +205,10 @@ footer {
   background-color: #6f4e37;
   padding: 1em;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 footer > span {
@@ -296,4 +310,9 @@ label {
   height: 100%;
   width: 100%;
   border: none;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
 }
