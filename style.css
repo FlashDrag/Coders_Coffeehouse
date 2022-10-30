@@ -95,6 +95,10 @@ nav > a:hover {
   color: silver;
 }
 
+li {
+  list-style-type: none;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -119,6 +123,7 @@ img {
 #tea-box {
   background-color: #6f4e37;
   position: relative;
+  z-index: 1;
 }
 
 #cold-drinks-box {
@@ -126,6 +131,11 @@ img {
   position: relative;
   right: 70px;
   top: -15px;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
 }
 
 .one-third-width-column {
@@ -168,12 +178,14 @@ img {
 .contact-box-left {
   width: 250px;
   margin-top: -20px;
+  float: left;
 }
 
 .contact-box-right {
   width: 250px;
   text-align: right;
   margin-top: -20px;
+  float: right;
 }
 
 .contact-box-center {
@@ -205,10 +217,11 @@ footer {
   background-color: #6f4e37;
   padding: 1em;
   text-align: center;
+  width: 100%;
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 100%;
+  z-index: 3;
 }
 
 footer > span {
@@ -280,6 +293,14 @@ legend {
   margin: 20px 0 10px 0;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 label {
   margin: 10px 15px 5px 0;
 }
@@ -298,6 +319,7 @@ label {
   padding: 0.5rem;
   margin: 1.5rem 0 0 15px;
   border: 1px solid grey;
+  overflow: scroll;
 }
 
 /* map */
@@ -310,9 +332,4 @@ label {
   height: 100%;
   width: 100%;
   border: none;
-}
-
-.vertical-center {
-  position: relative;
-  top: 50%;
 }
